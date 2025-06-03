@@ -1,0 +1,23 @@
+{
+  "id": null,
+  "uid": "spring-dashboard",
+  "title": "Custom Random Metrics",
+  "timezone": "browser",
+  "schemaVersion": 36,
+  "version": 1,
+  "refresh": "10s",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Custom Random Metric",
+      "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 },
+      "targets": [
+        {
+          "expr": "custom_random_metric",
+          "legendFormat": "Random Value",
+          "refId": "B"
+        }
+      ]
+    }
+  ]
+}

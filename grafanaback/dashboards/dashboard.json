@@ -1,0 +1,29 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Python Random Metric Dashboard",
+    "time": {
+      "from": "now-5m",
+      "to": "now"
+    },
+    "panels": [
+      {
+        "title": "Custom Random Metric",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "custom_random_metric",
+            "legendFormat": "Random Value"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 6
+        }
+      }
+    ]
+  }
+}
